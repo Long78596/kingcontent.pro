@@ -1,0 +1,5 @@
+.switchCustom .p-hidden-accessible,
+.switchCustom input {
+  width: 100%;
+  height: 100%;
+}

@@ -1,0 +1,7 @@
+.emoji-picker-react{
+  z-index: 20 !important;
+  position: absolute !important;
+  left: 0 !important;
+  width: 100% !important;
+  top: 12.5rem !important;
+}

@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap');
+@import url('https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css');
+
+body {
+  background: #ebf1f9;
+  font-family: 'Quicksand', sans-serif !important;
+}
+
+.rounded-zenius {
+  border-radius: 10px;
+}
+
+.rounded-t-zenius {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.shadow-zenius {
+  box-shadow: 0 1px 13px 0 rgb(54 74 99 / 3%);
+}
+.ps {
+  height: 100%;
+}
+
+header {
+  border-bottom-left-radius: 13px;
+  border-bottom-right-radius: 13px;
+}
+
+li.active > .menu_item {
+  font-weight: 500;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(77, 139, 231);
+}
+[type='text']:focus,
+[type='email']:focus,
+[type='url']:focus,
+[type='password']:focus,
+[type='number']:focus,
+[type='date']:focus,
+[type='datetime-local']:focus,
+[type='month']:focus,
+[type='search']:focus,
+[type='tel']:focus,
+[type='time']:focus,
+[type='week']:focus,
+[multiple]:focus,
+textarea:focus,
+select:focus {
+  outline-offset: 0px !important;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-color: none !important;
+}
+.ps__rail-y {
+  left: auto !important;
+}
+.react-multi-carousel-list .react-multiple-carousel__arrow {
+  transition: all 1s ease-in;
+  display: none;
+}
+
+.react-multi-carousel-list:hover .react-multiple-carousel__arrow {
+  display: block;
+}
+select-pointer {
+  cursor: auto;
+}
+.select-crosshair {
+  cursor: crosshair;
+}
+.select-default {
+  cursor: default;
+}
+.select-help {
+  cursor: help;
+}
+.select-move {
+  cursor: move;
+}
+.select-pointer {
+  cursor: pointer;
+}
+.select-progress {
+  cursor: progress;
+}
+.select-text {
+  cursor: text;
+}
+.select-wait {
+  cursor: wait;
+}
+.select-inherit {
+  cursor: inherit;
+}
+.bg-card-drag {
+  background-color: #00dfa2 !important;
+  translate: 10px 10px -100px;
+  transition: translate box-shadow color 0.25s;
+}
+div.react-confirm-alert-overlay {
+  z-index: 300000 !important;
+  background-color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.react-confirm-alert-body{
+  font-size: 14px;
+}
+.react-confirm-alert-body > h1 {
+  text-align: center;
+  font-weight: 600;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #d21312;
+}
+.react-confirm-alert-body .warning-content {
+  display: flex !important;
+  justify-content: center !important;
+}
+.react-confirm-alert-button-group {
+  display: flex !important;
+  justify-content: center !important;
+}
+.react-confirm-alert-button-group button:first-child {
+  background-color: #009c73;
+  padding: 10px;
+  min-width: 100px;
+  width: auto;
+  color: white;
+  font-weight: 700;
+  white-space: nowrap;
+}
+.react-confirm-alert-button-group button:last-child {
+  background-color: #d21312;
+  padding: 10px;
+  width: 100px;
+  color: white;
+  font-weight: 700;
+}
+.react-confirm-alert-button-group button:hover {
+  background-color: #333;
+  transition: 0.4s all ease-in;
+}
+.react-confirm-alert-overlay {
+  background: rgb(255 255 255 / 9%) !important;
+}
+
+.large-confirmation .react-confirm-alert {
+  width: 40% !important;
+}
+.large-confirmation .react-confirm-alert-body {
+  width: 100% !important;
+  text-align: center;
+}
+.react-player.preview video {
+  object-fit: cover;
+}
+.alertify {
+  z-index: 999999 !important;
+  margin-top: -50px;
+}
+.alertify-notifier {
+  z-index: 999999 !important;
+}
+.Toastify__toast-container {
+  width: 30%;
+  z-index: 99999999 !important;
+}
+.p-dialog-mask {
+  z-index: 99999 !important;
+}
+.rs-picker-menu {
+  z-index: 9999 !important;
+}
+.line-clamp {
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+}
+/* iframe-placeholder {
+  background: url(../images/loading/loading.gif) center center no-repeat;
+} */
